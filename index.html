@@ -910,7 +910,7 @@ const CLARO_IMG = `data:image/svg+xml;base64,PHN2ZyBpZD0iMmYwNDk2NjgtNGNiMS00OTV
 // ── HELPERS ──
 const DAYS_ES = ['Dom','Lun','Mar','Mié','Jue','Vie','Sáb'];
 const TODAY = '10/05/2026';
-const BACKEND = 'http://127.0.0.1:3001';
+const BACKEND = 'https://klein-applicant-minimal-shift.trycloudflare.com';
 
 function parseDate(str){ const [d,m,y]=str.split('/'); return new Date(+y,+m-1,+d); }
 function dowLabel(str){ const d=parseDate(str); return DAYS_ES[d.getDay()]; }
