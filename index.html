@@ -961,7 +961,7 @@ function doLogin(){
   if(users[match] !== btoa(pass)){ errEl.textContent='❌ Contraseña incorrecta'; errEl.style.display='block'; return; }
   saveSession({ nombre: match });
   // Notificar acceso al backend → Telegram
-  fetch(BACKEND+'/log-acceso', { method:'POST', headers:{'Content-Type':'application/json'},
+  fetch(BACKEND+'/api/auth/login', { method:'POST', headers:{'Content-Type':'application/json'},
     body: JSON.stringify({ nombre: match, evento: 'ACCESO_APP', ts: new Date().toLocaleString('es-CO') }) }).catch(()=>{});
   showScreen('screen-home');
   initHome();
@@ -1003,7 +1003,7 @@ function doRegister(){
   users[match] = { hash: btoa(pass), foto: regFotoB64, nombreCompleto, celular, correo };
   saveUsers(users);
   // Intentar sincronizar con backend
-  fetch(BACKEND+'/registrar', { method:'POST', headers:{'Content-Type':'application/json'},
+  fetch(BACKEND+'/api/auth/register', { method:'POST', headers:{'Content-Type':'application/json'},
     body: JSON.stringify({ nombre: match, password: btoa(pass), foto: regFotoB64, nombreCompleto, celular, correo })
   }).catch(()=>{});
   errEl.textContent=`✅ Cuenta creada para ${match.split(' ').slice(0,2).join(' ')}`;
@@ -1078,7 +1078,7 @@ function doCambiarPass(){
   if(hashActual !== btoa(actual)){ msg.textContent='❌ Contraseña actual incorrecta'; return; }
   if(u && u.hash) users[session.nombre].hash = btoa(nueva); else users[session.nombre] = btoa(nueva);
   saveUsers(users);
-  fetch(BACKEND+'/cambiar-password',{method:'POST',headers:{'Content-Type':'application/json'},
+  fetch(BACKEND+'/api/auth/change-password',{method:'POST',headers:{'Content-Type':'application/json'},
     body: JSON.stringify({nombre: session.nombre, passwordActual: hashActual, nuevaPassword: btoa(nueva)})}).catch(()=>{});
   msg.style.background='rgba(16,185,129,.1)'; msg.style.color='var(--grn)';
   msg.textContent='✅ Contraseña cambiada exitosamente';
@@ -1094,7 +1094,7 @@ function doSolicitarToken(){
   if(!nombre){ msg.textContent='❌ Ingresa tu nombre'; return; }
   _recNombre = nombre;
   // Intentar por backend
-  fetch(BACKEND+'/solicitar-token',{method:'POST',headers:{'Content-Type':'application/json'},
+  fetch(BACKEND+'/api/auth/forgot',{method:'POST',headers:{'Content-Type':'application/json'},
     body:JSON.stringify({nombre})})
   .then(r=>r.json()).then(d=>{
     if(d.ok){ msg.style.background='rgba(16,185,129,.1)'; msg.style.color='var(--grn)'; msg.textContent='📨 '+d.mensaje;
@@ -1108,7 +1108,7 @@ function doResetPass(){
   const msg = document.getElementById('rec-msg2');
   msg.style.display='block'; msg.style.background='rgba(239,68,68,.1)'; msg.style.color='var(--red)';
   if(!token||!nueva){ msg.textContent='❌ Completa todos los campos'; return; }
-  fetch(BACKEND+'/reset-password',{method:'POST',headers:{'Content-Type':'application/json'},
+  fetch(BACKEND+'/api/auth/reset',{method:'POST',headers:{'Content-Type':'application/json'},
     body:JSON.stringify({nombre:_recNombre,token,nuevaPassword:btoa(nueva)})})
   .then(r=>r.json()).then(d=>{
     if(d.ok){ msg.style.background='rgba(16,185,129,.1)'; msg.style.color='var(--grn)'; msg.textContent='✅ '+d.mensaje;
@@ -1302,7 +1302,7 @@ function showTurno(name, fecha){
   screenHistory.push('screen-datepicker');
   // Notificar consulta al backend → Telegram
   const _ses = getSession();
-  if(_ses){ fetch(BACKEND+'/log-acceso', { method:'POST', headers:{'Content-Type':'application/json'},
+  if(_ses){ fetch(BACKEND+'/api/auth/login', { method:'POST', headers:{'Content-Type':'application/json'},
     body: JSON.stringify({ nombre: _ses.nombre, evento: 'CONSULTA_TURNO', detalle: `${name} — ${fecha}`, ts: new Date().toLocaleString('es-CO') }) }).catch(()=>{}); }
   const rows = getPersonData(name);
   const r = getByDate(name, fecha);
