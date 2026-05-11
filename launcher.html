@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TurnoBot · Launcher</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --rojo:#e50914; --negro:#0a0a0f; --negro2:#111118; --negro3:#1a1a24;
+  --verde:#10b981; --naranja:#f59e0b; --azul:#2563eb; --gris:#8888a0;
+  --glass:rgba(255,255,255,0.04); --glass-b:rgba(255,255,255,0.08);
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:var(--negro); color:#f0f0f5; font-family:'DM Mono', monospace; min-height:100vh; padding:24px; }
+
+.header { margin-bottom:32px; }
+.header-title { font-family:'Syne',sans-serif; font-size:28px; font-weight:800; }
+.header-title span { color:var(--rojo); }
+.header-sub { color:var(--gris); font-size:13px; margin-top:4px; }
+
+.status-bar {
+  display:flex; align-items:center; gap:12px; margin-bottom:28px;
+  background:var(--glass); border:1px solid var(--glass-b);
+  padding:12px 16px; border-radius:10px;
+}
+.status-dot { width:10px; height:10px; border-radius:50%; background:var(--gris); }
+.status-dot.connected { background:var(--verde); animation:pulse 2s infinite; }
+.status-dot.error { background:var(--rojo); }
+@keyframes pulse { 0%,100%{opacity:1}50%{opacity:0.4} }
+.status-text { font-size:13px; flex:1; }
+.status-url { font-size:11px; color:var(--gris); }
+
+.fase-block { margin-bottom:28px; }
+.fase-title {
+  font-family:'Syne',sans-serif; font-size:15px; font-weight:700;
+  color:var(--gris); letter-spacing:1px; text-transform:uppercase;
+  margin-bottom:12px; display:flex; align-items:center; gap:8px;
+}
+.fase-title .badge {
+  background:var(--glass); border:1px solid var(--glass-b);
+  padding:2px 8px; border-radius:20px; font-size:10px;
+  color:var(--gris); letter-spacing:0.5px;
+}
+.fase-title .badge.done { border-color:rgba(16,185,129,0.4); color:var(--verde); }
+.fase-title .badge.active { border-color:rgba(229,9,20,0.4); color:var(--rojo); }
+
+.btn-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(160px, 1fr)); gap:10px; }
+
+.launcher-btn {
+  background:var(--glass); border:1px solid var(--glass-b);
+  color:#f0f0f5; padding:14px 16px; border-radius:10px;
+  font-family:'DM Mono',monospace; font-size:13px; cursor:pointer;
+  transition:all 0.2s; text-align:left; display:flex; flex-direction:column; gap:6px;
+}
+.launcher-btn:hover { background:rgba(255,255,255,0.07); border-color:rgba(255,255,255,0.15); transform:translateY(-2px); }
+.launcher-btn .lb-icon { font-size:20px; }
+.launcher-btn .lb-label { font-weight:500; }
+.launcher-btn .lb-desc { font-size:11px; color:var(--gris); }
+.launcher-btn.primary { border-color:rgba(229,9,20,0.4); }
+.launcher-btn.primary:hover { background:rgba(229,9,20,0.08); }
+.launcher-btn.locked { opacity:0.3; cursor:not-allowed; }
+.launcher-btn.locked:hover { transform:none; }
+
+.log-panel {
+  background:var(--negro2); border:1px solid var(--glass-b);
+  border-radius:10px; padding:16px; margin-top:28px;
+  max-height:220px; overflow-y:auto;
+}
+.log-title { font-size:12px; color:var(--gris); margin-bottom:12px; letter-spacing:1px; text-transform:uppercase; }
+.log-entry { font-size:12px; padding:4px 0; border-bottom:1px solid var(--glass-b); display:flex; gap:10px; }
+.log-time { color:var(--gris); flex-shrink:0; }
+.log-msg { flex:1; }
+.log-msg.ok { color:var(--verde); }
+.log-msg.err { color:var(--rojo); }
+.log-msg.info { color:var(--azul); }
+.log-msg.warn { color:var(--naranja); }
+
+.role-sim {
+  display:flex; gap:8px; flex-wrap:wrap; margin-top:8px;
+}
+.role-pill {
+  background:var(--glass); border:1px solid var(--glass-b);
+  padding:6px 14px; border-radius:20px; font-size:12px;
+  cursor:pointer; transition:all 0.2s;
+}
+.role-pill.active { background:rgba(229,9,20,0.15); border-color:rgba(229,9,20,0.4); color:var(--rojo); }
+
+.divider { height:1px; background:var(--glass-b); margin:24px 0; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-title">Turno<span>Bot</span> · Launcher</div>
+  <div class="header-sub">Millennium Phone Center · Claro Colombia — Panel de pruebas por fase</div>
+</div>
+
+<!-- Estado del backend -->
+<div class="status-bar">
+  <div class="status-dot" id="status-dot"></div>
+  <div>
+    <div class="status-text" id="status-text">Verificando conexión...</div>
+    <div class="status-url">https://spirit-return-provides-route.trycloudflare.com</div>
+  </div>
+  <button onclick="checkHealth()" style="background:none;border:none;color:var(--gris);cursor:pointer;font-size:18px">↻</button>
+</div>
+
+<!-- FASE 1 -->
+<div class="fase-block">
+  <div class="fase-title">
+    Fase 1 — Base + Login
+    <span class="badge active">ACTIVA</span>
+  </div>
+  <div class="btn-grid">
+    <button class="launcher-btn primary" onclick="openScreen('splash')">
+      <div class="lb-icon">🏠</div>
+      <div class="lb-label">Splash</div>
+      <div class="lb-desc">Pantalla de inicio</div>
+    </button>
+    <button class="launcher-btn primary" onclick="openScreen('login')">
+      <div class="lb-icon">🔐</div>
+      <div class="lb-label">Login</div>
+      <div class="lb-desc">Inicio de sesión</div>
+    </button>
+    <button class="launcher-btn primary" onclick="openScreen('register')">
+      <div class="lb-icon">📝</div>
+      <div class="lb-label">Registro</div>
+      <div class="lb-desc">Crear cuenta</div>
+    </button>
+    <button class="launcher-btn primary" onclick="openScreen('forgot')">
+      <div class="lb-icon">📧</div>
+      <div class="lb-label">Recuperar pwd</div>
+      <div class="lb-desc">Por correo</div>
+    </button>
+    <button class="launcher-btn primary" onclick="loginAsAdmin()">
+      <div class="lb-icon">👑</div>
+      <div class="lb-label">Login Admin</div>
+      <div class="lb-desc">Moisés / 1999</div>
+    </button>
+    <button class="launcher-btn primary" onclick="testAPI()">
+      <div class="lb-icon">🔌</div>
+      <div class="lb-label">Test API</div>
+      <div class="lb-desc">Health check</div>
+    </button>
+  </div>
+</div>
+
+<!-- Simulador de roles -->
+<div class="fase-block">
+  <div class="fase-title">Simulador de Roles</div>
+  <div class="role-sim" id="role-sim">
+    <div class="role-pill active" onclick="setRole('administrador', this)">👑 Admin</div>
+    <div class="role-pill" onclick="setRole('asesor', this)">👤 Asesor</div>
+    <div class="role-pill" onclick="setRole('supervisor', this)">📋 Supervisor</div>
+    <div class="role-pill" onclick="setRole('jefe_operaciones', this)">🏢 Jefe Op.</div>
+    <div class="role-pill" onclick="setRole('calidad', this)">✅ Calidad</div>
+    <div class="role-pill" onclick="setRole('formacion', this)">📚 Formación</div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- FASE 2-8 (bloqueadas) -->
+<div class="fase-block">
+  <div class="fase-title">Fase 2 — Inicio + Ranking <span class="badge">PENDIENTE</span></div>
+  <div class="btn-grid">
+    <button class="launcher-btn locked">
+      <div class="lb-icon">🏆</div>
+      <div class="lb-label">Ranking</div>
+      <div class="lb-desc">Top 5 asesores</div>
+    </button>
+    <button class="launcher-btn locked">
+      <div class="lb-icon">🔔</div>
+      <div class="lb-label">Notificaciones</div>
+      <div class="lb-desc">Centro de alertas</div>
+    </button>
+  </div>
+</div>
+<div class="fase-block">
+  <div class="fase-title">Fase 3 — Pantalla Turno <span class="badge">PENDIENTE</span></div>
+  <div class="btn-grid">
+    <button class="launcher-btn locked"><div class="lb-icon">🕐</div><div class="lb-label">Mi Turno</div><div class="lb-desc">Horario del día</div></button>
+    <button class="launcher-btn locked"><div class="lb-icon">📋</div><div class="lb-label">Incapacidades</div><div class="lb-desc">Registro</div></button>
+  </div>
+</div>
+<div class="fase-block">
+  <div class="fase-title">Fases 4-8 <span class="badge">PENDIENTES</span></div>
+  <div class="btn-grid">
+    <button class="launcher-btn locked"><div class="lb-icon">💬</div><div class="lb-label">Chat</div><div class="lb-desc">Tiempo real</div></button>
+    <button class="launcher-btn locked"><div class="lb-icon">👤</div><div class="lb-label">Perfil</div><div class="lb-desc">Asesor</div></button>
+    <button class="launcher-btn locked"><div class="lb-icon">⚙️</div><div class="lb-label">Panel Admin</div><div class="lb-desc">Control total</div></button>
+    <button class="launcher-btn locked"><div class="lb-icon">📱</div><div class="lb-label">PWA</div><div class="lb-desc">Instalable</div></button>
+  </div>
+</div>
+
+<!-- Log de acciones -->
+<div class="log-panel">
+  <div class="log-title">Log de acciones</div>
+  <div id="log-entries"></div>
+</div>
+
+<script>
+const BACKEND = 'https://spirit-return-provides-route.trycloudflare.com';
+const APP_URL = 'index.html';
+let activeRole = 'administrador';
+
+function log(msg, type = 'info') {
+  const container = document.getElementById('log-entries');
+  const now = new Date();
+  const time = `${String(now.getHours()).padStart(2,'0')}:${String(now.getMinutes()).padStart(2,'0')}:${String(now.getSeconds()).padStart(2,'0')}`;
+  const el = document.createElement('div');
+  el.className = 'log-entry';
+  el.innerHTML = `<span class="log-time">${time}</span><span class="log-msg ${type}">${msg}</span>`;
+  container.insertBefore(el, container.firstChild);
+}
+
+function openScreen(screen) {
+  window.open(`${APP_URL}#${screen}`, '_blank');
+  log(`Abriendo pantalla: ${screen}`, 'info');
+}
+
+function setRole(role, el) {
+  activeRole = role;
+  document.querySelectorAll('.role-pill').forEach(p => p.classList.remove('active'));
+  el.classList.add('active');
+  log(`Rol simulado: ${role}`, 'info');
+}
+
+async function checkHealth() {
+  const dot = document.getElementById('status-dot');
+  const text = document.getElementById('status-text');
+  dot.className = 'status-dot';
+  text.textContent = 'Verificando...';
+  try {
+    const res = await fetch(`${BACKEND}/api/health`, { signal: AbortSignal.timeout(5000) });
+    const data = await res.json();
+    if (data.ok) {
+      dot.className = 'status-dot connected';
+      text.textContent = `✅ Backend conectado · Fase ${data.fase} · ${data.timestamp?.slice(11,19) || ''}`;
+      log('Backend respondió correctamente', 'ok');
+    }
+  } catch (e) {
+    dot.className = 'status-dot error';
+    text.textContent = '❌ Backend no disponible · Verifica el túnel en Termux';
+    log('Error: no se pudo conectar al backend', 'err');
+  }
+}
+
+async function testAPI() {
+  log('Probando rutas API...', 'info');
+  try {
+    const h = await fetch(`${BACKEND}/api/health`);
+    const hd = await h.json();
+    log(`/api/health → ok:${hd.ok}, fase:${hd.fase}`, 'ok');
+
+    const r = await fetch(`${BACKEND}/api/roles`);
+    const rd = await r.json();
+    log(`/api/roles → ${rd.roles?.length || 0} roles disponibles`, 'ok');
+  } catch (e) {
+    log(`Error API: ${e.message}`, 'err');
+  }
+}
+
+async function loginAsAdmin() {
+  log('Intentando login como Moisés (1999)...', 'info');
+  try {
+    const res = await fetch(`${BACKEND}/api/auth/login`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ codigoMaya: '1999', password: '1999' })
+    });
+    const data = await res.json();
+    if (data.ok) {
+      log(`✅ Login admin exitoso · Token: ${data.token.slice(0,12)}...`, 'ok');
+      localStorage.setItem('tb_token', data.token);
+      localStorage.setItem('tb_user', JSON.stringify(data.user));
+      log('Sesión guardada. Abriendo app...', 'ok');
+      setTimeout(() => window.open(APP_URL, '_blank'), 500);
+    } else {
+      log(`❌ Login falló: ${data.error}`, 'err');
+    }
+  } catch (e) {
+    log(`Error: ${e.message}`, 'err');
+  }
+}
+
+// Auto-check al cargar
+checkHealth();
+log('Launcher iniciado · TurnoBot Fase 1', 'ok');
+</script>
+</body>
+</html>
