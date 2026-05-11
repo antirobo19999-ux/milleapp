@@ -1031,7 +1031,6 @@ function mostrarSplash(session){
   if(whn && session) whn.textContent = session.nombre.split(' ').slice(-1)[0];
   const sp = document.getElementById('splash-screen');
   if(!sp) return;
-  const [saludo] = getSaludoHora();
   document.getElementById('splash-greeting').textContent = saludo;
   if(session && session.esMoises){
     document.getElementById('splash-greeting').textContent = getSaludoHora()[0];
