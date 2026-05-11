@@ -1,0 +1,2301 @@
+{
+  "records": [
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ADRIANA ANILLO BOLÍVAR",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ADRIANA ANILLO BOLÍVAR",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ADRIANA ANILLO BOLÍVAR",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ADRIANA ANILLO BOLÍVAR",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ADRIANA ANILLO BOLÍVAR",
+      "entrada": "10:00",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:20",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ADRIANA ANILLO BOLÍVAR",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "09:15",
+      "break2": null,
+      "almuerzo": "11:00"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ALEXANDRA HURTADO BARROSO",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ALEXANDRA HURTADO BARROSO",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ALEXANDRA HURTADO BARROSO",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ALEXANDRA HURTADO BARROSO",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ALEXANDRA HURTADO BARROSO",
+      "entrada": "08:00",
+      "salida": "17:00",
+      "break1": "09:30",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ALEXANDRA HURTADO BARROSO",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "10:00",
+      "break2": null,
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ANDREA CAROLINA AGUERO ARENAS",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ANDREA CAROLINA AGUERO ARENAS",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ANDREA CAROLINA AGUERO ARENAS",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ANDREA CAROLINA AGUERO ARENAS",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ANDREA CAROLINA AGUERO ARENAS",
+      "entrada": "10:00",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:00",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ANDREA CAROLINA AGUERO ARENAS",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "09:40",
+      "break2": null,
+      "almuerzo": "11:30"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ANDREINA LUZ BOVEA LOPEZ",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ANDREINA LUZ BOVEA LOPEZ",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ANDREINA LUZ BOVEA LOPEZ",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ANDREINA LUZ BOVEA LOPEZ",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ANDREINA LUZ BOVEA LOPEZ",
+      "entrada": "10:00",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:20",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ANDREINA LUZ BOVEA LOPEZ",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "09:40",
+      "break2": null,
+      "almuerzo": "11:30"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Angely Nicoll Valdes Castro",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Angely Nicoll Valdes Castro",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Angely Nicoll Valdes Castro",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Angely Nicoll Valdes Castro",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Angely Nicoll Valdes Castro",
+      "entrada": "10:00",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:20",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Angely Nicoll Valdes Castro",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "09:40",
+      "break2": null,
+      "almuerzo": "11:30"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Anyeska Michell Arcon Gomez",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Anyeska Michell Arcon Gomez",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Anyeska Michell Arcon Gomez",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Anyeska Michell Arcon Gomez",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Anyeska Michell Arcon Gomez",
+      "entrada": "08:00",
+      "salida": "17:00",
+      "break1": "09:15",
+      "break2": "14:30",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Anyeska Michell Arcon Gomez",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "10:00",
+      "break2": null,
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "BRIANIS MILETH TORRES MÁRQUEZ",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "BRIANIS MILETH TORRES MÁRQUEZ",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "BRIANIS MILETH TORRES MÁRQUEZ",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "BRIANIS MILETH TORRES MÁRQUEZ",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "BRIANIS MILETH TORRES MÁRQUEZ",
+      "entrada": "08:00",
+      "salida": "17:00",
+      "break1": "09:30",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "BRIANIS MILETH TORRES MÁRQUEZ",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "09:15",
+      "break2": null,
+      "almuerzo": "11:00"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "CARLOS ENRIQUE GUZMAN JIMENEZ",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "CARLOS ENRIQUE GUZMAN JIMENEZ",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "CARLOS ENRIQUE GUZMAN JIMENEZ",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "CARLOS ENRIQUE GUZMAN JIMENEZ",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "CARLOS ENRIQUE GUZMAN JIMENEZ",
+      "entrada": "10:00",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:20",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "CARLOS ENRIQUE GUZMAN JIMENEZ",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "09:40",
+      "break2": null,
+      "almuerzo": "11:30"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "CINDY PATRICIA ALVAREZ GUTIERREZ",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "CINDY PATRICIA ALVAREZ GUTIERREZ",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "CINDY PATRICIA ALVAREZ GUTIERREZ",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "CINDY PATRICIA ALVAREZ GUTIERREZ",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "CINDY PATRICIA ALVAREZ GUTIERREZ",
+      "entrada": "08:00",
+      "salida": "17:00",
+      "break1": "09:30",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "CINDY PATRICIA ALVAREZ GUTIERREZ",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "09:40",
+      "break2": null,
+      "almuerzo": "11:30"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Daniela Lucia Reales Martinez",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Daniela Lucia Reales Martinez",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Daniela Lucia Reales Martinez",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Daniela Lucia Reales Martinez",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Daniela Lucia Reales Martinez",
+      "entrada": "08:00",
+      "salida": "17:00",
+      "break1": "09:30",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Daniela Lucia Reales Martinez",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "09:15",
+      "break2": null,
+      "almuerzo": "11:00"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Deimar Andres Escorcia Marquez",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Deimar Andres Escorcia Marquez",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Deimar Andres Escorcia Marquez",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Deimar Andres Escorcia Marquez",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Deimar Andres Escorcia Marquez",
+      "entrada": "10:00",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:00",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Deimar Andres Escorcia Marquez",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "09:15",
+      "break2": null,
+      "almuerzo": "11:00"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Diosibel Maria Gonzalez Marchena",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Diosibel Maria Gonzalez Marchena",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Diosibel Maria Gonzalez Marchena",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Diosibel Maria Gonzalez Marchena",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Diosibel Maria Gonzalez Marchena",
+      "entrada": "10:00",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:20",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Diosibel Maria Gonzalez Marchena",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "09:40",
+      "break2": null,
+      "almuerzo": "11:30"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ELIACID DAVID SANDOVAL PORRAS",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ELIACID DAVID SANDOVAL PORRAS",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ELIACID DAVID SANDOVAL PORRAS",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ELIACID DAVID SANDOVAL PORRAS",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ELIACID DAVID SANDOVAL PORRAS",
+      "entrada": "08:00",
+      "salida": "17:00",
+      "break1": "09:30",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ELIACID DAVID SANDOVAL PORRAS",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "09:15",
+      "break2": null,
+      "almuerzo": "11:00"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "EVERLIN SANDRY MORENO LOPEZ",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "EVERLIN SANDRY MORENO LOPEZ",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "EVERLIN SANDRY MORENO LOPEZ",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "EVERLIN SANDRY MORENO LOPEZ",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "EVERLIN SANDRY MORENO LOPEZ",
+      "entrada": "10:00",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:00",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "EVERLIN SANDRY MORENO LOPEZ",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "09:40",
+      "break2": null,
+      "almuerzo": "11:30"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "GREY MAR NORIEGA ALGARIN",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "GREY MAR NORIEGA ALGARIN",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "GREY MAR NORIEGA ALGARIN",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "GREY MAR NORIEGA ALGARIN",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "GREY MAR NORIEGA ALGARIN",
+      "entrada": "08:00",
+      "salida": "17:00",
+      "break1": "09:15",
+      "break2": "14:30",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "GREY MAR NORIEGA ALGARIN",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "10:00",
+      "break2": null,
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "JENNIFER MORALES MENDOZA",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "JENNIFER MORALES MENDOZA",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "JENNIFER MORALES MENDOZA",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "JENNIFER MORALES MENDOZA",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "JENNIFER MORALES MENDOZA",
+      "entrada": "08:00",
+      "salida": "17:00",
+      "break1": "09:15",
+      "break2": "14:30",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "JENNIFER MORALES MENDOZA",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "10:00",
+      "break2": null,
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "JOCELINE CAROLINE DE LA ROSA GOMEZ",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "JOCELINE CAROLINE DE LA ROSA GOMEZ",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "JOCELINE CAROLINE DE LA ROSA GOMEZ",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "JOCELINE CAROLINE DE LA ROSA GOMEZ",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "JOCELINE CAROLINE DE LA ROSA GOMEZ",
+      "entrada": "08:00",
+      "salida": "17:00",
+      "break1": "09:15",
+      "break2": "14:30",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "JOCELINE CAROLINE DE LA ROSA GOMEZ",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "10:00",
+      "break2": null,
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "JUAN DAVID ECHEVERRIA PRINCE",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "JUAN DAVID ECHEVERRIA PRINCE",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "JUAN DAVID ECHEVERRIA PRINCE",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "JUAN DAVID ECHEVERRIA PRINCE",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "JUAN DAVID ECHEVERRIA PRINCE",
+      "entrada": "08:00",
+      "salida": "17:00",
+      "break1": "09:15",
+      "break2": "14:30",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "JUAN DAVID ECHEVERRIA PRINCE",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "10:00",
+      "break2": null,
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "JULIETH PAOLA PERALTA MARTINEZ",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "JULIETH PAOLA PERALTA MARTINEZ",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "JULIETH PAOLA PERALTA MARTINEZ",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "JULIETH PAOLA PERALTA MARTINEZ",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "JULIETH PAOLA PERALTA MARTINEZ",
+      "entrada": "10:00",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:20",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "JULIETH PAOLA PERALTA MARTINEZ",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "09:15",
+      "break2": null,
+      "almuerzo": "11:00"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "KAREN LISETH DE LA ASUNCION CERVANTES",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "KAREN LISETH DE LA ASUNCION CERVANTES",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "KAREN LISETH DE LA ASUNCION CERVANTES",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "KAREN LISETH DE LA ASUNCION CERVANTES",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "KAREN LISETH DE LA ASUNCION CERVANTES",
+      "entrada": "08:00",
+      "salida": "17:00",
+      "break1": "09:15",
+      "break2": "14:30",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "KAREN LISETH DE LA ASUNCION CERVANTES",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "10:00",
+      "break2": null,
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Karla Melisa Conrado Lopez",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Karla Melisa Conrado Lopez",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Karla Melisa Conrado Lopez",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Karla Melisa Conrado Lopez",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Karla Melisa Conrado Lopez",
+      "entrada": "10:00",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:20",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Karla Melisa Conrado Lopez",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "09:40",
+      "break2": null,
+      "almuerzo": "11:30"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "KATHERINE PAOLA ARIAS JARAMILLO",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "KATHERINE PAOLA ARIAS JARAMILLO",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "KATHERINE PAOLA ARIAS JARAMILLO",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "KATHERINE PAOLA ARIAS JARAMILLO",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "KATHERINE PAOLA ARIAS JARAMILLO",
+      "entrada": "08:00",
+      "salida": "17:00",
+      "break1": "09:30",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "KATHERINE PAOLA ARIAS JARAMILLO",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "09:15",
+      "break2": null,
+      "almuerzo": "11:00"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "KEIDYS YOHANA CORTINA AVILA",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "KEIDYS YOHANA CORTINA AVILA",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "KEIDYS YOHANA CORTINA AVILA",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "KEIDYS YOHANA CORTINA AVILA",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "KEIDYS YOHANA CORTINA AVILA",
+      "entrada": "10:00",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:20",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "KEIDYS YOHANA CORTINA AVILA",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "09:40",
+      "break2": null,
+      "almuerzo": "11:30"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Leidis Onet Miranda Guerra",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Leidis Onet Miranda Guerra",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Leidis Onet Miranda Guerra",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Leidis Onet Miranda Guerra",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Leidis Onet Miranda Guerra",
+      "entrada": "08:00",
+      "salida": "17:00",
+      "break1": "09:15",
+      "break2": "14:30",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Leidis Onet Miranda Guerra",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "10:00",
+      "break2": null,
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Lizeth Patricia Castillo Quintero",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Lizeth Patricia Castillo Quintero",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Lizeth Patricia Castillo Quintero",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Lizeth Patricia Castillo Quintero",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Lizeth Patricia Castillo Quintero",
+      "entrada": "08:00",
+      "salida": "17:00",
+      "break1": "09:15",
+      "break2": "14:30",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Lizeth Patricia Castillo Quintero",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "10:00",
+      "break2": null,
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Mabelin Paola Camargo Ripoll",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Mabelin Paola Camargo Ripoll",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Mabelin Paola Camargo Ripoll",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Mabelin Paola Camargo Ripoll",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Mabelin Paola Camargo Ripoll",
+      "entrada": "10:00",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:00",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Mabelin Paola Camargo Ripoll",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "09:15",
+      "break2": null,
+      "almuerzo": "11:00"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "MARIA DE LOS ANGELES PANTOJA DE LA HOZ",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "MARIA DE LOS ANGELES PANTOJA DE LA HOZ",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "MARIA DE LOS ANGELES PANTOJA DE LA HOZ",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "MARIA DE LOS ANGELES PANTOJA DE LA HOZ",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "MARIA DE LOS ANGELES PANTOJA DE LA HOZ",
+      "entrada": "10:00",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:00",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "MARIA DE LOS ANGELES PANTOJA DE LA HOZ",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "09:40",
+      "break2": null,
+      "almuerzo": "11:30"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Marta Alejandra Larios Hernandez",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Marta Alejandra Larios Hernandez",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Marta Alejandra Larios Hernandez",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Marta Alejandra Larios Hernandez",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:15",
+      "break2": "14:40",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Marta Alejandra Larios Hernandez",
+      "entrada": "08:00",
+      "salida": "17:00",
+      "break1": "09:15",
+      "break2": "14:30",
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Marta Alejandra Larios Hernandez",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "10:00",
+      "break2": null,
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "MELANYS DANIELA SOBRINO DE LA HOZ",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "MELANYS DANIELA SOBRINO DE LA HOZ",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "MELANYS DANIELA SOBRINO DE LA HOZ",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "MELANYS DANIELA SOBRINO DE LA HOZ",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "MELANYS DANIELA SOBRINO DE LA HOZ",
+      "entrada": "10:00",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:00",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "MELANYS DANIELA SOBRINO DE LA HOZ",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "09:15",
+      "break2": null,
+      "almuerzo": "11:00"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "MERLIS SOFIA GUTIÉRREZ PALOMINO",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "MERLIS SOFIA GUTIÉRREZ PALOMINO",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "MERLIS SOFIA GUTIÉRREZ PALOMINO",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "MERLIS SOFIA GUTIÉRREZ PALOMINO",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "MERLIS SOFIA GUTIÉRREZ PALOMINO",
+      "entrada": "08:00",
+      "salida": "17:00",
+      "break1": "09:30",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "MERLIS SOFIA GUTIÉRREZ PALOMINO",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "09:15",
+      "break2": null,
+      "almuerzo": "11:00"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "MICHEL ANDREA CASTRO CANDANOZA",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "MICHEL ANDREA CASTRO CANDANOZA",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "MICHEL ANDREA CASTRO CANDANOZA",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "MICHEL ANDREA CASTRO CANDANOZA",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "MICHEL ANDREA CASTRO CANDANOZA",
+      "entrada": "08:00",
+      "salida": "17:00",
+      "break1": "09:30",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "MICHEL ANDREA CASTRO CANDANOZA",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "10:00",
+      "break2": null,
+      "almuerzo": "12:30"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Nasmeidy Lucia Gomez Galera",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Nasmeidy Lucia Gomez Galera",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Nasmeidy Lucia Gomez Galera",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Nasmeidy Lucia Gomez Galera",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Nasmeidy Lucia Gomez Galera",
+      "entrada": "10:00",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:20",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Nasmeidy Lucia Gomez Galera",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "09:40",
+      "break2": null,
+      "almuerzo": "11:30"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "NEVIS CAROLINA JIMENEZ MARMOL",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "NEVIS CAROLINA JIMENEZ MARMOL",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:00",
+      "break2": "17:00",
+      "almuerzo": "13:30"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "NEVIS CAROLINA JIMENEZ MARMOL",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "NEVIS CAROLINA JIMENEZ MARMOL",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "NEVIS CAROLINA JIMENEZ MARMOL",
+      "entrada": "10:00",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:00",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "NEVIS CAROLINA JIMENEZ MARMOL",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "09:40",
+      "break2": null,
+      "almuerzo": "11:30"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Sara Patricia Baldovino Barreto",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Sara Patricia Baldovino Barreto",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Sara Patricia Baldovino Barreto",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Sara Patricia Baldovino Barreto",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Sara Patricia Baldovino Barreto",
+      "entrada": "08:00",
+      "salida": "17:00",
+      "break1": "09:30",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Sara Patricia Baldovino Barreto",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "09:15",
+      "break2": null,
+      "almuerzo": "11:00"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "VIVIANA ESTER CUMPLIDO VALENCIA",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "VIVIANA ESTER CUMPLIDO VALENCIA",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "VIVIANA ESTER CUMPLIDO VALENCIA",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "VIVIANA ESTER CUMPLIDO VALENCIA",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "VIVIANA ESTER CUMPLIDO VALENCIA",
+      "entrada": "10:00",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:00",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "VIVIANA ESTER CUMPLIDO VALENCIA",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "09:15",
+      "break2": null,
+      "almuerzo": "11:00"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Wandi Vanessa Tafur Sanjuan",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Wandi Vanessa Tafur Sanjuan",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Wandi Vanessa Tafur Sanjuan",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Wandi Vanessa Tafur Sanjuan",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Wandi Vanessa Tafur Sanjuan",
+      "entrada": "10:00",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:00",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "Wandi Vanessa Tafur Sanjuan",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "09:15",
+      "break2": null,
+      "almuerzo": "11:00"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "YULISSA LILIANA PEREZ SALCEDO",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "YULISSA LILIANA PEREZ SALCEDO",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "YULISSA LILIANA PEREZ SALCEDO",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "YULISSA LILIANA PEREZ SALCEDO",
+      "entrada": "10:30",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:20",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "YULISSA LILIANA PEREZ SALCEDO",
+      "entrada": "10:00",
+      "salida": "19:00",
+      "break1": "12:15",
+      "break2": "17:00",
+      "almuerzo": "14:00"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "YULISSA LILIANA PEREZ SALCEDO",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "09:40",
+      "break2": null,
+      "almuerzo": "11:30"
+    },
+    {
+      "fecha": "11/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ZUANY SOFIA RENDON SINCELEJO",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "12/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ZUANY SOFIA RENDON SINCELEJO",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "13/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ZUANY SOFIA RENDON SINCELEJO",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "14/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ZUANY SOFIA RENDON SINCELEJO",
+      "entrada": "08:00",
+      "salida": "16:30",
+      "break1": "09:40",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "15/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ZUANY SOFIA RENDON SINCELEJO",
+      "entrada": "08:00",
+      "salida": "17:00",
+      "break1": "09:30",
+      "break2": "14:15",
+      "almuerzo": "12:00"
+    },
+    {
+      "fecha": "16/05/2026",
+      "estado": "ACTIVO",
+      "nombre": "ZUANY SOFIA RENDON SINCELEJO",
+      "entrada": "08:00",
+      "salida": "15:00",
+      "break1": "10:00",
+      "break2": null,
+      "almuerzo": null
+    }
+  ],
+  "bloques": [
+    {
+      "id": "04_05_2026_—_09_05_2026",
+      "label": "04/05/2026 — 09/05/2026",
+      "fechaInicio": "04/05/2026",
+      "fechaFin": "09/05/2026",
+      "cargadoEn": "10/5/2026, 1:47:05 a. m."
+    },
+    {
+      "id": "11_05_2026_—_16_05_2026",
+      "label": "11/05/2026 — 16/05/2026",
+      "fechaInicio": "11/05/2026",
+      "fechaFin": "16/05/2026",
+      "cargadoEn": "10/5/2026, 3:14:53 a. m."
+    }
+  ],
+  "generado": "10/5/2026, 3:14:55 a. m."
+}

@@ -1,0 +1,24 @@
+body{
+    background:#0f172a;
+    color:white;
+    font-family:Arial;
+}
+
+#contenedor-turnos{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+    padding:20px;
+}
+
+.card{
+    background:#1e293b;
+    border-radius:16px;
+    padding:20px;
+    transition:.3s;
+    box-shadow:0 0 10px rgba(0,0,0,.3);
+}
+
+.card:hover{
+    transform:scale(1.03);
+}

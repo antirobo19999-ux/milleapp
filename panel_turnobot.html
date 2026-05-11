@@ -1,0 +1,3031 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Panel TurnoBot</title>
+
+<style>
+body{
+    background:#08152e;
+    font-family:Arial;
+    color:white;
+    margin:0;
+    padding:20px;
+}
+
+h1{
+    text-align:center;
+    color:#2fb4ff;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#17233d;
+    border-radius:20px;
+    padding:20px;
+    box-shadow:0 0 10px rgba(0,0,0,.3);
+}
+
+.nombre{
+    color:#2fb4ff;
+    font-size:24px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.estado{
+    background:#16a34a;
+    display:inline-block;
+    padding:8px 15px;
+    border-radius:10px;
+    margin-top:10px;
+    font-weight:bold;
+}
+
+.info{
+    margin:4px 0;
+    font-size:18px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>📊 Panel TurnoBot</h1>
+
+<div class="grid">
+
+    <div class="card">
+        <div class="nombre">ADRIANA ANILLO BOLÍVAR</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ADRIANA ANILLO BOLÍVAR</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 17:00</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:30</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ADRIANA ANILLO BOLÍVAR</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ADRIANA ANILLO BOLÍVAR</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ADRIANA ANILLO BOLÍVAR</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ADRIANA ANILLO BOLÍVAR</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 12:00</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 11:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ALEXANDRA HURTADO BARROSO</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ALEXANDRA HURTADO BARROSO</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 10:00</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ALEXANDRA HURTADO BARROSO</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ALEXANDRA HURTADO BARROSO</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ALEXANDRA HURTADO BARROSO</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ALEXANDRA HURTADO BARROSO</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ANDREA CAROLINA AGUERO ARENAS</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ANDREA CAROLINA AGUERO ARENAS</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 17:00</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ANDREA CAROLINA AGUERO ARENAS</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ANDREA CAROLINA AGUERO ARENAS</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ANDREA CAROLINA AGUERO ARENAS</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ANDREA CAROLINA AGUERO ARENAS</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 12:30</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 11:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ANDREINA LUZ BOVEA LOPEZ</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ANDREINA LUZ BOVEA LOPEZ</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 17:00</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ANDREINA LUZ BOVEA LOPEZ</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ANDREINA LUZ BOVEA LOPEZ</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ANDREINA LUZ BOVEA LOPEZ</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ANDREINA LUZ BOVEA LOPEZ</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 12:30</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 11:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Angely Nicoll Valdes Castro</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Angely Nicoll Valdes Castro</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 17:00</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Angely Nicoll Valdes Castro</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Angely Nicoll Valdes Castro</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Angely Nicoll Valdes Castro</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Angely Nicoll Valdes Castro</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 12:30</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 11:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Anyeska Michell Arcon Gomez</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Anyeska Michell Arcon Gomez</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 10:00</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Anyeska Michell Arcon Gomez</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Anyeska Michell Arcon Gomez</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Anyeska Michell Arcon Gomez</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Anyeska Michell Arcon Gomez</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">BRIANIS MILETH TORRES MÁRQUEZ</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">BRIANIS MILETH TORRES MÁRQUEZ</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 17:00</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">BRIANIS MILETH TORRES MÁRQUEZ</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">BRIANIS MILETH TORRES MÁRQUEZ</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">BRIANIS MILETH TORRES MÁRQUEZ</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">BRIANIS MILETH TORRES MÁRQUEZ</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 12:00</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 11:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">CARLOS ENRIQUE GUZMAN JIMENEZ</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">CARLOS ENRIQUE GUZMAN JIMENEZ</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 17:00</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">CARLOS ENRIQUE GUZMAN JIMENEZ</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">CARLOS ENRIQUE GUZMAN JIMENEZ</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">CARLOS ENRIQUE GUZMAN JIMENEZ</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">CARLOS ENRIQUE GUZMAN JIMENEZ</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 12:30</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 11:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">CINDY PATRICIA ALVAREZ GUTIERREZ</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">CINDY PATRICIA ALVAREZ GUTIERREZ</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 10:00</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">CINDY PATRICIA ALVAREZ GUTIERREZ</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">CINDY PATRICIA ALVAREZ GUTIERREZ</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">CINDY PATRICIA ALVAREZ GUTIERREZ</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">CINDY PATRICIA ALVAREZ GUTIERREZ</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 12:30</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 11:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Daniela Lucia Reales Martinez</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Daniela Lucia Reales Martinez</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 10:00</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Daniela Lucia Reales Martinez</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Daniela Lucia Reales Martinez</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Daniela Lucia Reales Martinez</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Daniela Lucia Reales Martinez</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 12:00</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 11:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Deimar Andres Escorcia Marquez</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Deimar Andres Escorcia Marquez</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 17:00</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:30</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Deimar Andres Escorcia Marquez</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Deimar Andres Escorcia Marquez</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Deimar Andres Escorcia Marquez</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Deimar Andres Escorcia Marquez</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 12:00</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 11:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Diosibel Maria Gonzalez Marchena</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Diosibel Maria Gonzalez Marchena</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 17:00</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Diosibel Maria Gonzalez Marchena</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Diosibel Maria Gonzalez Marchena</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Diosibel Maria Gonzalez Marchena</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Diosibel Maria Gonzalez Marchena</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 12:30</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 11:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ELIACID DAVID SANDOVAL PORRAS</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ELIACID DAVID SANDOVAL PORRAS</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 10:00</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ELIACID DAVID SANDOVAL PORRAS</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ELIACID DAVID SANDOVAL PORRAS</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ELIACID DAVID SANDOVAL PORRAS</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ELIACID DAVID SANDOVAL PORRAS</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 12:00</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 11:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">EVERLIN SANDRY MORENO LOPEZ</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">EVERLIN SANDRY MORENO LOPEZ</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 17:00</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:30</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">EVERLIN SANDRY MORENO LOPEZ</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">EVERLIN SANDRY MORENO LOPEZ</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">EVERLIN SANDRY MORENO LOPEZ</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">EVERLIN SANDRY MORENO LOPEZ</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 12:30</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 11:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">GREY MAR NORIEGA ALGARIN</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">GREY MAR NORIEGA ALGARIN</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 10:00</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">GREY MAR NORIEGA ALGARIN</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">GREY MAR NORIEGA ALGARIN</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">GREY MAR NORIEGA ALGARIN</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">GREY MAR NORIEGA ALGARIN</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">JENNIFER MORALES MENDOZA</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">JENNIFER MORALES MENDOZA</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 10:00</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">JENNIFER MORALES MENDOZA</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">JENNIFER MORALES MENDOZA</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">JENNIFER MORALES MENDOZA</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">JENNIFER MORALES MENDOZA</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">JOCELINE CAROLINE DE LA ROSA GOMEZ</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">JOCELINE CAROLINE DE LA ROSA GOMEZ</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 10:00</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">JOCELINE CAROLINE DE LA ROSA GOMEZ</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">JOCELINE CAROLINE DE LA ROSA GOMEZ</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">JOCELINE CAROLINE DE LA ROSA GOMEZ</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">JOCELINE CAROLINE DE LA ROSA GOMEZ</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">JUAN DAVID ECHEVERRIA PRINCE</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">JUAN DAVID ECHEVERRIA PRINCE</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 10:00</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">JUAN DAVID ECHEVERRIA PRINCE</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">JUAN DAVID ECHEVERRIA PRINCE</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">JUAN DAVID ECHEVERRIA PRINCE</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">JUAN DAVID ECHEVERRIA PRINCE</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">JULIETH PAOLA PERALTA MARTINEZ</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">JULIETH PAOLA PERALTA MARTINEZ</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 17:00</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">JULIETH PAOLA PERALTA MARTINEZ</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">JULIETH PAOLA PERALTA MARTINEZ</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">JULIETH PAOLA PERALTA MARTINEZ</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">JULIETH PAOLA PERALTA MARTINEZ</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 12:00</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 11:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">KAREN LISETH DE LA ASUNCION CERVANTES</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">KAREN LISETH DE LA ASUNCION CERVANTES</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 10:00</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">KAREN LISETH DE LA ASUNCION CERVANTES</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">KAREN LISETH DE LA ASUNCION CERVANTES</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">KAREN LISETH DE LA ASUNCION CERVANTES</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">KAREN LISETH DE LA ASUNCION CERVANTES</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Karla Melisa Conrado Lopez</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Karla Melisa Conrado Lopez</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 17:00</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Karla Melisa Conrado Lopez</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Karla Melisa Conrado Lopez</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Karla Melisa Conrado Lopez</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Karla Melisa Conrado Lopez</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 12:30</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 11:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">KATHERINE PAOLA ARIAS JARAMILLO</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">KATHERINE PAOLA ARIAS JARAMILLO</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 10:00</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">KATHERINE PAOLA ARIAS JARAMILLO</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">KATHERINE PAOLA ARIAS JARAMILLO</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">KATHERINE PAOLA ARIAS JARAMILLO</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">KATHERINE PAOLA ARIAS JARAMILLO</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 12:00</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 11:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">KEIDYS YOHANA CORTINA AVILA</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">KEIDYS YOHANA CORTINA AVILA</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 17:00</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:30</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">KEIDYS YOHANA CORTINA AVILA</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">KEIDYS YOHANA CORTINA AVILA</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">KEIDYS YOHANA CORTINA AVILA</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">KEIDYS YOHANA CORTINA AVILA</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 12:30</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 11:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Leidis Onet Miranda Guerra</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Leidis Onet Miranda Guerra</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 10:00</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Leidis Onet Miranda Guerra</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Leidis Onet Miranda Guerra</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Leidis Onet Miranda Guerra</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Leidis Onet Miranda Guerra</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Lizeth Patricia Castillo Quintero</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Lizeth Patricia Castillo Quintero</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 10:00</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Lizeth Patricia Castillo Quintero</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Lizeth Patricia Castillo Quintero</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Lizeth Patricia Castillo Quintero</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Lizeth Patricia Castillo Quintero</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Mabelin Paola Camargo Ripoll</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Mabelin Paola Camargo Ripoll</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 17:00</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:30</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Mabelin Paola Camargo Ripoll</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Mabelin Paola Camargo Ripoll</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Mabelin Paola Camargo Ripoll</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Mabelin Paola Camargo Ripoll</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 12:00</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 11:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">MARIA DE LOS ANGELES PANTOJA DE LA HOZ</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">MARIA DE LOS ANGELES PANTOJA DE LA HOZ</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 17:00</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:30</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">MARIA DE LOS ANGELES PANTOJA DE LA HOZ</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">MARIA DE LOS ANGELES PANTOJA DE LA HOZ</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">MARIA DE LOS ANGELES PANTOJA DE LA HOZ</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">MARIA DE LOS ANGELES PANTOJA DE LA HOZ</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 12:30</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 11:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Marta Alejandra Larios Hernandez</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Marta Alejandra Larios Hernandez</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 10:00</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Marta Alejandra Larios Hernandez</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Marta Alejandra Larios Hernandez</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Marta Alejandra Larios Hernandez</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Marta Alejandra Larios Hernandez</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">MELANYS DANIELA SOBRINO DE LA HOZ</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">MELANYS DANIELA SOBRINO DE LA HOZ</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 17:00</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:30</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">MELANYS DANIELA SOBRINO DE LA HOZ</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">MELANYS DANIELA SOBRINO DE LA HOZ</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">MELANYS DANIELA SOBRINO DE LA HOZ</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">MELANYS DANIELA SOBRINO DE LA HOZ</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 12:00</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 11:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">MERLIS SOFIA GUTIÉRREZ PALOMINO</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">MERLIS SOFIA GUTIÉRREZ PALOMINO</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 10:00</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">MERLIS SOFIA GUTIÉRREZ PALOMINO</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">MERLIS SOFIA GUTIÉRREZ PALOMINO</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">MERLIS SOFIA GUTIÉRREZ PALOMINO</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">MERLIS SOFIA GUTIÉRREZ PALOMINO</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 12:00</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 11:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">MICHEL ANDREA CASTRO CANDANOZA</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">MICHEL ANDREA CASTRO CANDANOZA</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 10:00</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">MICHEL ANDREA CASTRO CANDANOZA</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">MICHEL ANDREA CASTRO CANDANOZA</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">MICHEL ANDREA CASTRO CANDANOZA</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">MICHEL ANDREA CASTRO CANDANOZA</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Nasmeidy Lucia Gomez Galera</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Nasmeidy Lucia Gomez Galera</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 17:00</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Nasmeidy Lucia Gomez Galera</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Nasmeidy Lucia Gomez Galera</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Nasmeidy Lucia Gomez Galera</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Nasmeidy Lucia Gomez Galera</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 12:30</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 11:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">NEVIS CAROLINA JIMENEZ MARMOL</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">NEVIS CAROLINA JIMENEZ MARMOL</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 17:00</div>
+        <div class="info">☕ Break 1: 13:00</div>
+        <div class="info">☕ Break 2: 14:15</div>
+        <div class="info">🍽️ Almuerzo: 12:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">NEVIS CAROLINA JIMENEZ MARMOL</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">NEVIS CAROLINA JIMENEZ MARMOL</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 15:00</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 14:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">NEVIS CAROLINA JIMENEZ MARMOL</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">NEVIS CAROLINA JIMENEZ MARMOL</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 12:30</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 11:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Sara Patricia Baldovino Barreto</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Sara Patricia Baldovino Barreto</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 10:00</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Sara Patricia Baldovino Barreto</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Sara Patricia Baldovino Barreto</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Sara Patricia Baldovino Barreto</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Sara Patricia Baldovino Barreto</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 12:00</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 11:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">VIVIANA ESTER CUMPLIDO VALENCIA</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">VIVIANA ESTER CUMPLIDO VALENCIA</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 17:00</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:30</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">VIVIANA ESTER CUMPLIDO VALENCIA</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">VIVIANA ESTER CUMPLIDO VALENCIA</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">VIVIANA ESTER CUMPLIDO VALENCIA</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">VIVIANA ESTER CUMPLIDO VALENCIA</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 12:00</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 11:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Wandi Vanessa Tafur Sanjuan</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Wandi Vanessa Tafur Sanjuan</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 17:00</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:30</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Wandi Vanessa Tafur Sanjuan</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Wandi Vanessa Tafur Sanjuan</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Wandi Vanessa Tafur Sanjuan</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">Wandi Vanessa Tafur Sanjuan</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 12:00</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 11:00</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">YULISSA LILIANA PEREZ SALCEDO</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">YULISSA LILIANA PEREZ SALCEDO</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 17:00</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:30</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">YULISSA LILIANA PEREZ SALCEDO</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">YULISSA LILIANA PEREZ SALCEDO</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">YULISSA LILIANA PEREZ SALCEDO</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 16:30</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: 14:40</div>
+        <div class="info">🍽️ Almuerzo: 12:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">YULISSA LILIANA PEREZ SALCEDO</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 12:30</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: 11:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ZUANY SOFIA RENDON SINCELEJO</div>
+
+        <div class="info">📅 Fecha: 04/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ZUANY SOFIA RENDON SINCELEJO</div>
+
+        <div class="info">📅 Fecha: 05/05/2026</div>
+        <div class="info">🕒 Entrada: 10:00</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:20</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ZUANY SOFIA RENDON SINCELEJO</div>
+
+        <div class="info">📅 Fecha: 06/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ZUANY SOFIA RENDON SINCELEJO</div>
+
+        <div class="info">📅 Fecha: 07/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ZUANY SOFIA RENDON SINCELEJO</div>
+
+        <div class="info">📅 Fecha: 08/05/2026</div>
+        <div class="info">🕒 Entrada: 10:30</div>
+        <div class="info">🕔 Salida: 19:00</div>
+        <div class="info">☕ Break 1: 14:30</div>
+        <div class="info">☕ Break 2: 17:00</div>
+        <div class="info">🍽️ Almuerzo: 13:30</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+    <div class="card">
+        <div class="nombre">ZUANY SOFIA RENDON SINCELEJO</div>
+
+        <div class="info">📅 Fecha: 09/05/2026</div>
+        <div class="info">🕒 Entrada: 08:00</div>
+        <div class="info">🕔 Salida: 15:00</div>
+        <div class="info">☕ Break 1: 13:30</div>
+        <div class="info">☕ Break 2: None</div>
+        <div class="info">🍽️ Almuerzo: None</div>
+
+        <div class="estado">ACTIVO</div>
+    </div>
+    
+</div>
+</body>
+</html>

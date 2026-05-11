@@ -1,0 +1,20 @@
+{
+  "name": "TurnoBot · Millennium BPO",
+  "short_name": "Milleapp",
+  "start_url": "/milleapp/index.html",
+  "display": "standalone",
+  "background_color": "#0d0f14",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "icon-mill.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-mill.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
